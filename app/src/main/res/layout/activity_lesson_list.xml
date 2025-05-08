@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Голубой хедер с закруглением снизу -->
+    <RelativeLayout
+        android:id="@+id/header_deta"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:background="@drawable/rounded_header">
+
+        <!-- Кнопка назад -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Назад"
+            android:padding="12dp"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@android:color/white" />
+
+        <!-- Надпись "Вступительные уроки" -->
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="56dp"
+            android:text="Вступительные уроки"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <!-- Первый блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_p"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/header_deta">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "Урок 1" -->
+        <TextView
+            android:id="@+id/lesson_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon1"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:text="Урок 1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <!-- Текст "Базовый уровень" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lesson_title1"
+            android:layout_alignLeft="@id/lesson_title1"
+            android:text="Базовый уровень"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+
+    <!-- Второй блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_i1"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/text_text_p">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "Урок 2" -->
+        <TextView
+            android:id="@+id/lesson_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon2"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:text="Урок 2"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <!-- Текст "Базовый уровень" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lesson_title2"
+            android:layout_alignLeft="@id/lesson_title2"
+            android:text="Базовый уровень"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+
+    <!-- Третий блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_i2"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/text_text_i1">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "Урок 3" -->
+        <TextView
+            android:id="@+id/lesson_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon3"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:text="Урок 3"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <!-- Текст "Базовый уровень" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lesson_title3"
+            android:layout_alignLeft="@id/lesson_title3"
+            android:text="Базовый уровень"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+
+    <!-- Четвертый блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_i3"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/text_text_i2">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "Урок 4" -->
+        <TextView
+            android:id="@+id/lesson_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon4"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:text="Урок 4"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <!-- Текст "Базовый уровень" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lesson_title4"
+            android:layout_alignLeft="@id/lesson_title4"
+            android:text="Базовый уровень"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+    </RelativeLayout>
+</RelativeLayout>
