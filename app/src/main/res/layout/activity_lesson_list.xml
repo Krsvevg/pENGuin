@@ -47,11 +47,10 @@
         android:id="@+id/text_text_p"
         android:layout_width="327dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/bg_rounded_gray_border"
-        android:layout_below="@id/header_deta">
+        android:layout_below="@id/header_deta"
+        android:layout_centerHorizontal="true">
 
         <!-- Иконка -->
         <ImageView
@@ -92,11 +91,10 @@
         android:id="@+id/text_text_i1"
         android:layout_width="327dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_rounded_gray_border"
-        android:layout_below="@id/text_text_p">
+        android:layout_below="@id/text_text_p"
+        android:layout_centerHorizontal="true">
 
         <!-- Иконка -->
         <ImageView
@@ -137,11 +135,10 @@
         android:id="@+id/text_text_i2"
         android:layout_width="327dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_rounded_gray_border"
-        android:layout_below="@id/text_text_i1">
+        android:layout_below="@id/text_text_i1"
+        android:layout_centerHorizontal="true">
 
         <!-- Иконка -->
         <ImageView
@@ -183,11 +180,10 @@
         android:id="@+id/text_text_i3"
         android:layout_width="327dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_rounded_gray_border"
-        android:layout_below="@id/text_text_i2">
+        android:layout_below="@id/text_text_i2"
+        android:layout_centerHorizontal="true">
 
         <!-- Иконка -->
         <ImageView
