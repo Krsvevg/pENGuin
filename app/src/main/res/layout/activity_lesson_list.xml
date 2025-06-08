@@ -61,7 +61,7 @@
             android:layout_marginLeft="20dp"
             android:src="@drawable/pencil_paper"/>
 
-        <!-- Текст "Урок 1" -->
+        <!-- Текст "Уровень А1" -->
         <TextView
             android:id="@+id/lesson_title1"
             android:layout_width="wrap_content"
@@ -69,18 +69,18 @@
             android:layout_toRightOf="@id/icon1"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="16dp"
-            android:text="Урок 1"
+            android:text="Уровень A1"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#000000"/>
 
-        <!-- Текст "Базовый уровень" -->
+        <!-- Текст "Beginner" -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/lesson_title1"
             android:layout_alignLeft="@id/lesson_title1"
-            android:text="Базовый уровень"
+            android:text="Beginner"
             android:textSize="14sp"
             android:textStyle="normal"
             android:textColor="#000000"/>
@@ -105,7 +105,7 @@
             android:layout_marginLeft="20dp"
             android:src="@drawable/pencil_paper"/>
 
-        <!-- Текст "Урок 2" -->
+        <!-- Текст "Уровень А2" -->
         <TextView
             android:id="@+id/lesson_title2"
             android:layout_width="wrap_content"
@@ -113,18 +113,18 @@
             android:layout_toRightOf="@id/icon2"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="16dp"
-            android:text="Урок 2"
+            android:text="Уровень А2"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#000000"/>
 
-        <!-- Текст "Базовый уровень" -->
+        <!-- Текст "Elementary" -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/lesson_title2"
             android:layout_alignLeft="@id/lesson_title2"
-            android:text="Базовый уровень"
+            android:text="Elementary"
             android:textSize="14sp"
             android:textStyle="normal"
             android:textColor="#000000"/>
@@ -149,7 +149,7 @@
             android:layout_marginLeft="20dp"
             android:src="@drawable/pencil_paper"/>
 
-        <!-- Текст "Урок 3" -->
+        <!-- Текст "Уровень B1" -->
         <TextView
             android:id="@+id/lesson_title3"
             android:layout_width="wrap_content"
@@ -157,19 +157,19 @@
             android:layout_toRightOf="@id/icon3"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="16dp"
-            android:text="Урок 3"
+            android:text="Уровень B1"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#000000"
             />
 
-        <!-- Текст "Базовый уровень" -->
+        <!-- Текст "Intermediate" -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/lesson_title3"
             android:layout_alignLeft="@id/lesson_title3"
-            android:text="Базовый уровень"
+            android:text="Intermediate"
             android:textSize="14sp"
             android:textStyle="normal"
             android:textColor="#000000"/>
@@ -194,7 +194,7 @@
             android:layout_marginLeft="20dp"
             android:src="@drawable/pencil_paper"/>
 
-        <!-- Текст "Урок 4" -->
+        <!-- Текст "Уровень B2" -->
         <TextView
             android:id="@+id/lesson_title4"
             android:layout_width="wrap_content"
@@ -202,19 +202,111 @@
             android:layout_toRightOf="@id/icon4"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="16dp"
-            android:text="Урок 4"
+            android:text="Уровень B2"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#000000"
             />
 
-        <!-- Текст "Базовый уровень" -->
+        <!-- Текст "Upper Intermediate" -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/lesson_title4"
             android:layout_alignLeft="@id/lesson_title4"
-            android:text="Базовый уровень"
+            android:text="Upper Intermediate"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+    </RelativeLayout>
+
+    <!-- Пятый блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_i4"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/text_text_i3"
+        android:layout_centerHorizontal="true">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "Уровень C1" -->
+        <TextView
+            android:id="@+id/lesson_title5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon5"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:text="Уровень C1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <!-- Текст "Advanced" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lesson_title5"
+            android:layout_alignLeft="@id/lesson_title5"
+            android:text="Advanced"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            />
+    </RelativeLayout>
+
+    <!-- Шестый блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_i5"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/text_text_i4"
+        android:layout_centerHorizontal="true">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon6"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "Уровень C2" -->
+        <TextView
+            android:id="@+id/lesson_title6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon6"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:text="Уровень C2"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <!-- Текст "Proficiency" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lesson_title6"
+            android:layout_alignLeft="@id/lesson_title6"
+            android:text="Proficiency"
             android:textSize="14sp"
             android:textStyle="normal"
             android:textColor="#000000"
