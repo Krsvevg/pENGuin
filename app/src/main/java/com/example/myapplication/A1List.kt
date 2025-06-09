@@ -14,20 +14,36 @@ class A1List : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_a1_list)
-            val backButton = findViewById<ImageButton>(R.id.backButton)
-            backButton.setOnClickListener {
-                finish()
-            }
+        val backButton = findViewById<ImageButton>(R.id.backButton)
+        backButton.setOnClickListener {
+            finish()
+        }
 
-            // Находим первый блок по ID
-            val firstBlock = findViewById<RelativeLayout>(R.id.text_text_p)
+        val firstBlock = findViewById<RelativeLayout>(R.id.text_text_p)
+        val secondBlock = findViewById<RelativeLayout>(R.id.text_text_i1)
+        val thirdBlock = findViewById<RelativeLayout>(R.id.text_text_i2)
+        val fourthBlock = findViewById<RelativeLayout>(R.id.text_text_i3)
+        val fifthBlock = findViewById<RelativeLayout>(R.id.text_text_i4)
 
-            // Добавляем обработчик нажатия
-            firstBlock.setOnClickListener {
-                // Создаем Intent для перехода на A1List
-                val intent = Intent(this, A1PSFirst::class.java)
-                startActivity(intent)
-
+        firstBlock.setOnClickListener {
+            val intent = Intent(this, A1PSFirst::class.java)
+            startActivity(intent)
+        }
+        secondBlock.setOnClickListener {
+            val intent = Intent(this, A1VocFirst::class.java)
+            startActivity(intent)
+        }
+        thirdBlock.setOnClickListener {
+            val intent = Intent(this, A1VocFirst::class.java)
+            startActivity(intent)
+        }
+        fourthBlock.setOnClickListener {
+            val intent = Intent(this, A1VocFirst::class.java)
+            startActivity(intent)
+        }
+        fifthBlock.setOnClickListener {
+            val intent = Intent(this, A1VocFirst::class.java)
+            startActivity(intent)
         }
     }
 }

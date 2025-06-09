@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="24dp">
+
+    <!-- Кнопка Назад -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Назад"
+        android:padding="12dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/black" />
+
+    <!-- Прогресс-бар (выровнен по центру) -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="250dp"
+        android:layout_height="12dp"
+        android:max="100"
+        android:progress="60"
+        android:progressDrawable="@drawable/progress_bar_custom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/backButton"
+        app:layout_constraintBottom_toBottomOf="@id/backButton" />
+
+    <!-- Заголовок -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="I ___ my homework after dinner. (do/does)"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progressBar" />
+
+    <!-- Поле ввода -->
+    <EditText
+        android:id="@+id/answerInput"
+        android:layout_width="327dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Введите ответ"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#999999"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText" />
+
+    <!-- Кнопка Продолжить -->
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#F5F5F5"
+        android:enabled="false"
+        android:text="Продолжить"
+        android:textColor="#888888"
+        app:cornerRadius="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

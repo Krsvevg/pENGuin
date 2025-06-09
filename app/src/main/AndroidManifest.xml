@@ -13,6 +13,36 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".A1VocSixth"
+            android:exported="false" />
+        <activity
+            android:name=".A1VocFifth"
+            android:exported="false" />
+        <activity
+            android:name=".A1VocFourth"
+            android:exported="false" />
+        <activity
+            android:name=".A1VocThird"
+            android:exported="false" />
+        <activity
+            android:name=".A1VocSecond"
+            android:exported="false" />
+        <activity
+            android:name=".A1VocFirst"
+            android:exported="false" />
+        <activity
+            android:name=".A1PSTenth"
+            android:exported="false" />
+        <activity
+            android:name=".A1PSNineth"
+            android:exported="false" />
+        <activity
+            android:name=".A1PSEightth"
+            android:exported="false" />
+        <activity
+            android:name=".A1PSSeventh"
+            android:exported="false" />
+        <activity
             android:name=".A1PSSixth"
             android:exported="false" />
         <activity
