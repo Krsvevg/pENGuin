@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="24dp">
+
+    <!-- Кнопка Назад -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Назад"
+        android:padding="12dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/black" />
+
+    <!-- Прогресс-бар (выровнен по центру) -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="250dp"
+        android:layout_height="12dp"
+        android:max="100"
+        android:progress="90"
+        android:progressDrawable="@drawable/progress_bar_custom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/backButton"
+        app:layout_constraintBottom_toBottomOf="@id/backButton" />
+
+    <!-- Заголовок -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="«What time is it?» He asked what time ___."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progressBar" />
+
+    <!-- Поле ввода -->
+    <Button
+        android:id="@+id/option1Button"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#F5F5F5"
+        android:textColor="#888888"
+        app:cornerRadius="16dp"
+        android:text="was it"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText" />
+
+    <Button
+        android:id="@+id/option2Button"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#F5F5F5"
+        android:textColor="#888888"
+        app:cornerRadius="16dp"
+        android:text="is it"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/option1Button" />
+
+    <Button
+        android:id="@+id/option3Button"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#F5F5F5"
+        android:textColor="#888888"
+        app:cornerRadius="16dp"
+        android:text="it was"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/option2Button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

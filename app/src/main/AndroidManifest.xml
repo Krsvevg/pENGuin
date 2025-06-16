@@ -13,6 +13,838 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".C2WriteTenth"
+            android:exported="false" />
+        <activity
+            android:name=".C2WriteNineth"
+            android:exported="false" />
+        <activity
+            android:name=".C2WriteEightth"
+            android:exported="false" />
+        <activity
+            android:name=".C2WriteSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".C2WriteSixth"
+            android:exported="false" />
+        <activity
+            android:name=".C2WriteFifth"
+            android:exported="false" />
+        <activity
+            android:name=".C2WriteFourth"
+            android:exported="false" />
+        <activity
+            android:name=".C2WriteThird"
+            android:exported="false" />
+        <activity
+            android:name=".C2WriteSecond"
+            android:exported="false" />
+        <activity
+            android:name=".C2WriteFirst"
+            android:exported="false" />
+        <activity
+            android:name=".C2FLTenth"
+            android:exported="false" />
+        <activity
+            android:name=".C2FLNineth"
+            android:exported="false" />
+        <activity
+            android:name=".C2FLEightth"
+            android:exported="false" />
+        <activity
+            android:name=".C2FLSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".C2FLSixth"
+            android:exported="false" />
+        <activity
+            android:name=".C2FLFifth"
+            android:exported="false" />
+        <activity
+            android:name=".C2FLFourth"
+            android:exported="false" />
+        <activity
+            android:name=".C2FLThird"
+            android:exported="false" />
+        <activity
+            android:name=".C2FLSecond"
+            android:exported="false" />
+        <activity
+            android:name=".C2FLFirst"
+            android:exported="false" />
+        <activity
+            android:name=".C2ReadNineth"
+            android:exported="false" />
+        <activity
+            android:name=".C2ReadEightth"
+            android:exported="false" />
+        <activity
+            android:name=".C2ReadSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".C2ReadSixth"
+            android:exported="false" />
+        <activity
+            android:name=".C2ReadFourth"
+            android:exported="false" />
+        <activity
+            android:name=".C2ReadThird"
+            android:exported="false" />
+        <activity
+            android:name=".C2ReadSecond"
+            android:exported="false" />
+        <activity
+            android:name=".C2ReadFirst"
+            android:exported="false" />
+        <activity
+            android:name=".C2VocTenth"
+            android:exported="false" />
+        <activity
+            android:name=".C2VocNineth"
+            android:exported="false" />
+        <activity
+            android:name=".C2VocEightth"
+            android:exported="false" />
+        <activity
+            android:name=".C2VocSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".C2VocSixth"
+            android:exported="false" />
+        <activity
+            android:name=".C2VocFifth"
+            android:exported="false" />
+        <activity
+            android:name=".C2VocFourth"
+            android:exported="false" />
+        <activity
+            android:name=".C2VocThird"
+            android:exported="false" />
+        <activity
+            android:name=".C2VocSecond"
+            android:exported="false" />
+        <activity
+            android:name=".C2VocFirst"
+            android:exported="false" />
+        <activity
+            android:name=".C2GTenth"
+            android:exported="false" />
+        <activity
+            android:name=".C2GNineth"
+            android:exported="false" />
+        <activity
+            android:name=".C2GEightth"
+            android:exported="false" />
+        <activity
+            android:name=".C2GSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".C2GSixth"
+            android:exported="false" />
+        <activity
+            android:name=".C2GFifth"
+            android:exported="false" />
+        <activity
+            android:name=".C2GFourth"
+            android:exported="false" />
+        <activity
+            android:name=".C2GThird"
+            android:exported="false" />
+        <activity
+            android:name=".C2GSecond"
+            android:exported="false" />
+        <activity
+            android:name=".C2GFirst"
+            android:exported="false" />
+        <activity
+            android:name=".C2List"
+            android:exported="false" />
+        <activity
+            android:name=".C1WriteTenth"
+            android:exported="false" />
+        <activity
+            android:name=".C1WriteNineth"
+            android:exported="false" />
+        <activity
+            android:name=".C1WriteEightth"
+            android:exported="false" />
+        <activity
+            android:name=".C1WriteSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".C1WriteSixth"
+            android:exported="false" />
+        <activity
+            android:name=".C1WriteFifth"
+            android:exported="false" />
+        <activity
+            android:name=".C1WriteFourth"
+            android:exported="false" />
+        <activity
+            android:name=".C1WriteThird"
+            android:exported="false" />
+        <activity
+            android:name=".C1WriteSecond"
+            android:exported="false" />
+        <activity
+            android:name=".C1WriteFirst"
+            android:exported="false" />
+        <activity
+            android:name=".C1FLTenth"
+            android:exported="false" />
+        <activity
+            android:name=".C1FLNineth"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".C1FLEightth"
+            android:exported="false" />
+        <activity
+            android:name=".C1FLSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".C1FLSixth"
+            android:exported="false" />
+        <activity
+            android:name=".C1FLFifth"
+            android:exported="false" />
+        <activity
+            android:name=".C1FLFourth"
+            android:exported="false" />
+        <activity
+            android:name=".C1FLThird"
+            android:exported="false" />
+        <activity
+            android:name=".C1FLSecond"
+            android:exported="false" />
+        <activity
+            android:name=".C1FLFirst"
+            android:exported="false" />
+        <activity
+            android:name=".C1ReadFifth"
+            android:exported="false" />
+        <activity
+            android:name=".C1ReadFourth"
+            android:exported="false" />
+        <activity
+            android:name=".C1ReadThird"
+            android:exported="false" />
+        <activity
+            android:name=".C1ReadSecond"
+            android:exported="false" />
+        <activity
+            android:name=".C1ReadFirst"
+            android:exported="false" />
+        <activity
+            android:name=".C1VocTenth"
+            android:exported="false" />
+        <activity
+            android:name=".C1VocNineth"
+            android:exported="false" />
+        <activity
+            android:name=".C1VocEightth"
+            android:exported="false" />
+        <activity
+            android:name=".C1VocSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".C1VocSixth"
+            android:exported="false" />
+        <activity
+            android:name=".C1VocFifth"
+            android:exported="false" />
+        <activity
+            android:name=".C1VocFourth"
+            android:exported="false" />
+        <activity
+            android:name=".C1VocThird"
+            android:exported="false" />
+        <activity
+            android:name=".C1VocSecond"
+            android:exported="false" />
+        <activity
+            android:name=".C1VocFirst"
+            android:exported="false" />
+        <activity
+            android:name=".C1GTenth"
+            android:exported="false" />
+        <activity
+            android:name=".C1GNineth"
+            android:exported="false" />
+        <activity
+            android:name=".C1GEightth"
+            android:exported="false" />
+        <activity
+            android:name=".C1GSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".C1GSixth"
+            android:exported="false" />
+        <activity
+            android:name=".C1GFifth"
+            android:exported="false" />
+        <activity
+            android:name=".C1GFourth"
+            android:exported="false" />
+        <activity
+            android:name=".C1GThird"
+            android:exported="false" />
+        <activity
+            android:name=".C1GSecond"
+            android:exported="false" />
+        <activity
+            android:name=".C1GFirst"
+            android:exported="false" />
+        <activity
+            android:name=".C1List"
+            android:exported="false" />
+        <activity
+            android:name=".B2WriteTenth"
+            android:exported="false" />
+        <activity
+            android:name=".B2WriteNineth"
+            android:exported="false" />
+        <activity
+            android:name=".B2WriteEightth"
+            android:exported="false" />
+        <activity
+            android:name=".B2WriteSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".B2WriteSixth"
+            android:exported="false" />
+        <activity
+            android:name=".B2WriteFifth"
+            android:exported="false" />
+        <activity
+            android:name=".B2WriteFourth"
+            android:exported="false" />
+        <activity
+            android:name=".B2WriteThird"
+            android:exported="false" />
+        <activity
+            android:name=".B2WriteSecond"
+            android:exported="false" />
+        <activity
+            android:name=".B2WriteFirst"
+            android:exported="false" />
+        <activity
+            android:name=".B2FLTenth"
+            android:exported="false" />
+        <activity
+            android:name=".B2FLNineth"
+            android:exported="false" />
+        <activity
+            android:name=".B2FLEightth"
+            android:exported="false" />
+        <activity
+            android:name=".B2FLSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".B2FLSixth"
+            android:exported="false" />
+        <activity
+            android:name=".B2FLFifth"
+            android:exported="false" />
+        <activity
+            android:name=".B2FLFourth"
+            android:exported="false" />
+        <activity
+            android:name=".B2FLThird"
+            android:exported="false" />
+        <activity
+            android:name=".B2FLSecond"
+            android:exported="false" />
+        <activity
+            android:name=".B2FLFirst"
+            android:exported="false" />
+        <activity
+            android:name=".B2ReadTenth"
+            android:exported="false" />
+        <activity
+            android:name=".B2ReadNineth"
+            android:exported="false" />
+        <activity
+            android:name=".B2ReadEightth"
+            android:exported="false" />
+        <activity
+            android:name=".B2ReadSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".B2ReadSixth"
+            android:exported="false" />
+        <activity
+            android:name=".B2ReadFifth"
+            android:exported="false" />
+        <activity
+            android:name=".B2ReadFourth"
+            android:exported="false" />
+        <activity
+            android:name=".B2ReadThird"
+            android:exported="false" />
+        <activity
+            android:name=".B2ReadSecond"
+            android:exported="false" />
+        <activity
+            android:name=".B2ReadFirst"
+            android:exported="false" />
+        <activity
+            android:name=".B2VocTenth"
+            android:exported="false" />
+        <activity
+            android:name=".B2VocNineth"
+            android:exported="false" />
+        <activity
+            android:name=".B2VocEightth"
+            android:exported="false" />
+        <activity
+            android:name=".B2VocSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".B2VocSixth"
+            android:exported="false" />
+        <activity
+            android:name=".B2VocFifth"
+            android:exported="false" />
+        <activity
+            android:name=".B2VocFourth"
+            android:exported="false" />
+        <activity
+            android:name=".B2VocThird"
+            android:exported="false" />
+        <activity
+            android:name=".B2VocSecond"
+            android:exported="false" />
+        <activity
+            android:name=".B2VocFirst"
+            android:exported="false" />
+        <activity
+            android:name=".B2GTTenth"
+            android:exported="false" />
+        <activity
+            android:name=".B2GTNineth"
+            android:exported="false" />
+        <activity
+            android:name=".B2GTEightth"
+            android:exported="false" />
+        <activity
+            android:name=".B2GTSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".B2GTSixth"
+            android:exported="false" />
+        <activity
+            android:name=".B2GTFifth"
+            android:exported="false" />
+        <activity
+            android:name=".B2GTFourth"
+            android:exported="false" />
+        <activity
+            android:name=".B2GTThird"
+            android:exported="false" />
+        <activity
+            android:name=".B2GTSecond"
+            android:exported="false" />
+        <activity
+            android:name=".B2GTFirst"
+            android:exported="false" />
+        <activity
+            android:name=".B2List"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVerbsTenth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVerbsNineth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVerbsEightth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVerbsSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVerbsSixth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVerbsFifth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVerbsFourth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVerbsThird"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVerbsSecond"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVerbsFirst"
+            android:exported="false" />
+        <activity
+            android:name=".B1RSTenth"
+            android:exported="false" />
+        <activity
+            android:name=".B1RSNineth"
+            android:exported="false" />
+        <activity
+            android:name=".B1RSEightth"
+            android:exported="false" />
+        <activity
+            android:name=".B1RSSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".B1RSSixth"
+            android:exported="false" />
+        <activity
+            android:name=".B1RSFifth"
+            android:exported="false" />
+        <activity
+            android:name=".B1RSFourth"
+            android:exported="false" />
+        <activity
+            android:name=".B1RSThird"
+            android:exported="false" />
+        <activity
+            android:name=".B1RSSecond"
+            android:exported="false" />
+        <activity
+            android:name=".B1RSFirst"
+            android:exported="false" />
+        <activity
+            android:name=".B1SCTenth"
+            android:exported="false" />
+        <activity
+            android:name=".B1SCNineth"
+            android:exported="false" />
+        <activity
+            android:name=".B1SCEightth"
+            android:exported="false" />
+        <activity
+            android:name=".B1SCSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".B1SCSixth"
+            android:exported="false" />
+        <activity
+            android:name=".B1SCFifth"
+            android:exported="false" />
+        <activity
+            android:name=".B1SCFourth"
+            android:exported="false" />
+        <activity
+            android:name=".B1SCThird"
+            android:exported="false" />
+        <activity
+            android:name=".B1SCSecond"
+            android:exported="false" />
+        <activity
+            android:name=".B1SCFirst"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVTenth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVNineth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVEightth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVSixth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVFifth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVFourth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVThird"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVSecond"
+            android:exported="false" />
+        <activity
+            android:name=".B1PVFirst"
+            android:exported="false"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".B1PPPSTenth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PPPSNineth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PPPSEightth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PPPSSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".B1PPPSSixth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PPPSFifth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PPPSFourth"
+            android:exported="false" />
+        <activity
+            android:name=".B1PPPSThird"
+            android:exported="false" />
+        <activity
+            android:name=".B1PPPSSecond"
+            android:exported="false" />
+        <activity
+            android:name=".B1PPPSFirst"
+            android:exported="false" />
+        <activity
+            android:name=".B1List"
+            android:exported="false" />
+        <activity
+            android:name=".A2MVEightth"
+            android:exported="false" />
+        <activity
+            android:name=".A2MVSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".A2MVSixth"
+            android:exported="false" />
+        <activity
+            android:name=".A2MVFifth"
+            android:exported="false" />
+        <activity
+            android:name=".A2MVFourth"
+            android:exported="false" />
+        <activity
+            android:name=".A2MVThird"
+            android:exported="false" />
+        <activity
+            android:name=".A2MVSecond"
+            android:exported="false" />
+        <activity
+            android:name=".A2MVFirst"
+            android:exported="false" />
+        <activity
+            android:name=".A2FutTenth"
+            android:exported="false" />
+        <activity
+            android:name=".A2FutNineth"
+            android:exported="false" />
+        <activity
+            android:name=".A2FutEightth"
+            android:exported="false" />
+        <activity
+            android:name=".A2FutSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".A2FutSixth"
+            android:exported="false" />
+        <activity
+            android:name=".A2FutFifth"
+            android:exported="false" />
+        <activity
+            android:name=".A2FutFourth"
+            android:exported="false" />
+        <activity
+            android:name=".A2FutThird"
+            android:exported="false" />
+        <activity
+            android:name=".A2FutSecond"
+            android:exported="false" />
+        <activity
+            android:name=".A2FutFirst"
+            android:exported="false" />
+        <activity
+            android:name=".A2PCSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".A2PCSixth"
+            android:exported="false" />
+        <activity
+            android:name=".A2PCFifth"
+            android:exported="false" />
+        <activity
+            android:name=".A2PCFourth"
+            android:exported="false" />
+        <activity
+            android:name=".A2PCThird"
+            android:exported="false" />
+        <activity
+            android:name=".A2PCSecond"
+            android:exported="false" />
+        <activity
+            android:name=".A2PCFirst"
+            android:exported="false" />
+        <activity
+            android:name=".A2CSTenth"
+            android:exported="false" />
+        <activity
+            android:name=".A2CSNineth"
+            android:exported="false" />
+        <activity
+            android:name=".A2CSEightth"
+            android:exported="false" />
+        <activity
+            android:name=".A2CSSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".A2CSSixth"
+            android:exported="false" />
+        <activity
+            android:name=".A2CSFourth"
+            android:exported="false" />
+        <activity
+            android:name=".A2CSThird"
+            android:exported="false" />
+        <activity
+            android:name=".A2CSSecond"
+            android:exported="false" />
+        <activity
+            android:name=".A2CSFirst"
+            android:exported="false" />
+        <activity
+            android:name=".A2PSTenth"
+            android:exported="false" />
+        <activity
+            android:name=".A2PSNineth"
+            android:exported="false" />
+        <activity
+            android:name=".A2PSEightth"
+            android:exported="false" />
+        <activity
+            android:name=".A2PSSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".A2PSSixth"
+            android:exported="false" />
+        <activity
+            android:name=".A2PSFifth"
+            android:exported="false" />
+        <activity
+            android:name=".A2PSFourth"
+            android:exported="false" />
+        <activity
+            android:name=".A2PSThird"
+            android:exported="false" />
+        <activity
+            android:name=".A2PSSecond"
+            android:exported="false" />
+        <activity
+            android:name=".A2PSFirst"
+            android:exported="false" />
+        <activity
+            android:name=".A2List"
+            android:exported="false" />
+        <activity
+            android:name=".A1AdjTenth"
+            android:exported="false" />
+        <activity
+            android:name=".A1AdjNineth"
+            android:exported="false" />
+        <activity
+            android:name=".A1AdjEightth"
+            android:exported="false" />
+        <activity
+            android:name=".A1AdjSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".A1AdjSixth"
+            android:exported="false" />
+        <activity
+            android:name=".A1AdjFifth"
+            android:exported="false" />
+        <activity
+            android:name=".A1AdjFourth"
+            android:exported="false" />
+        <activity
+            android:name=".A1AdjThird"
+            android:exported="false" />
+        <activity
+            android:name=".A1AdjSecond"
+            android:exported="false" />
+        <activity
+            android:name=".A1AdjFirst"
+            android:exported="false" />
+        <activity
+            android:name=".A1PrepTenth"
+            android:exported="false" />
+        <activity
+            android:name=".A1PrepNineth"
+            android:exported="false" />
+        <activity
+            android:name=".A1PrepEightth"
+            android:exported="false" />
+        <activity
+            android:name=".A1PrepSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".A1PrepSixth"
+            android:exported="false" />
+        <activity
+            android:name=".A1PrepFifth"
+            android:exported="false" />
+        <activity
+            android:name=".A1PrepFourth"
+            android:exported="false" />
+        <activity
+            android:name=".A1PrepThird"
+            android:exported="false" />
+        <activity
+            android:name=".A1PrepSecond"
+            android:exported="false" />
+        <activity
+            android:name=".A1PrepFirst"
+            android:exported="false" />
+        <activity
+            android:name=".A1ThereTenth"
+            android:exported="false" />
+        <activity
+            android:name=".A1ThereNineth"
+            android:exported="false" />
+        <activity
+            android:name=".A1ThereEightth"
+            android:exported="false" />
+        <activity
+            android:name=".A1ThereSeventh"
+            android:exported="false" />
+        <activity
+            android:name=".A1ThereSixth"
+            android:exported="false" />
+        <activity
+            android:name=".A1ThereFifth"
+            android:exported="false" />
+        <activity
+            android:name=".A1ThereFourth"
+            android:exported="false" />
+        <activity
+            android:name=".A1ThereThird"
+            android:exported="false" />
+        <activity
+            android:name=".A1ThereSecond"
+            android:exported="false" />
+        <activity
+            android:name=".A1ThereFirst"
+            android:exported="false" />
+        <activity
+            android:name=".A1VocTenth"
+            android:exported="false" />
+        <activity
+            android:name=".A1VocNineth"
+            android:exported="false" />
+        <activity
+            android:name=".A1VocEigth"
+            android:exported="false" />
+        <activity
+            android:name=".A1VocSeventh"
+            android:exported="false" />
+        <activity
             android:name=".A1VocSixth"
             android:exported="false" />
         <activity

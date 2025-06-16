@@ -69,5 +69,3 @@ class A1VocThird : AppCompatActivity() {
         inputMethodManager.toggleSoftInput(android.view.inputmethod.InputMethodManager.SHOW_FORCED, 0)
     }
 }
-    }
-}

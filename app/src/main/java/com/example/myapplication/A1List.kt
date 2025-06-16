@@ -34,15 +34,15 @@ class A1List : AppCompatActivity() {
             startActivity(intent)
         }
         thirdBlock.setOnClickListener {
-            val intent = Intent(this, A1VocFirst::class.java)
+            val intent = Intent(this, A1ThereFirst::class.java)
             startActivity(intent)
         }
         fourthBlock.setOnClickListener {
-            val intent = Intent(this, A1VocFirst::class.java)
+            val intent = Intent(this, A1PrepFirst::class.java)
             startActivity(intent)
         }
         fifthBlock.setOnClickListener {
-            val intent = Intent(this, A1VocFirst::class.java)
+            val intent = Intent(this, A1AdjFirst::class.java)
             startActivity(intent)
         }
     }

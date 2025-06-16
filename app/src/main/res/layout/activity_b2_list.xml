@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Голубой хедер с закруглением снизу -->
+    <RelativeLayout
+        android:id="@+id/header_deta"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:background="@drawable/rounded_header">
+
+        <!-- Кнопка назад -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Назад"
+            android:padding="12dp"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@android:color/white" />
+
+        <!-- Надпись "Уроки A1" -->
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="56dp"
+            android:text="Уроки B2"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <!-- Первый блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_p"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/header_deta"
+        android:layout_centerHorizontal="true">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "Present Simple" -->
+        <TextView
+            android:id="@+id/lesson_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon1"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="26dp"
+            android:text="Grammar – Tenses"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+
+    </RelativeLayout>
+
+    <!-- Второй блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_i1"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/text_text_p"
+        android:layout_centerHorizontal="true">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "Vocabulary: Family" -->
+        <TextView
+            android:id="@+id/lesson_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon2"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="26dp"
+            android:text="Vocabulary – Travel and Holidays"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+
+    </RelativeLayout>
+
+    <!-- Третий блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_i2"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/text_text_i1"
+        android:layout_centerHorizontal="true">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "There is / There are" -->
+        <TextView
+            android:id="@+id/lesson_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon3"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="26dp"
+            android:text="Reading – Understanding Meaning"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+    </RelativeLayout>
+
+    <!-- Четвертый блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_i3"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/text_text_i2"
+        android:layout_centerHorizontal="true">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "Prepositions of place" -->
+        <TextView
+            android:id="@+id/lesson_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon4"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="26dp"
+            android:text="Functional Language – Everyday Use"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+    </RelativeLayout>
+
+    <!-- Пятый блок -->
+    <RelativeLayout
+        android:id="@+id/text_text_i4"
+        android:layout_width="327dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded_gray_border"
+        android:layout_below="@id/text_text_i3"
+        android:layout_centerHorizontal="true">
+
+        <!-- Иконка -->
+        <ImageView
+            android:id="@+id/icon5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pencil_paper"/>
+
+        <!-- Текст "Adjectives" -->
+        <TextView
+            android:id="@+id/lesson_title5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon5"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="26dp"
+            android:text="Writing – Sentence Completion"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+
+    </RelativeLayout>
+</RelativeLayout>
