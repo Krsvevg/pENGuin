@@ -16,7 +16,8 @@ class A2List : AppCompatActivity() {
         setContentView(R.layout.activity_a2_list)
         val backButton = findViewById<ImageButton>(R.id.backButton)
         backButton.setOnClickListener {
-            finish()
+            val intent = Intent(this, LessonListActivity::class.java)
+            startActivity(intent)
         }
 
         val firstBlock = findViewById<RelativeLayout>(R.id.text_text_p)

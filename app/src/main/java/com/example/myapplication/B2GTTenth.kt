@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.content.Intent
+import android.content.SharedPreferences
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
@@ -17,6 +18,7 @@ import androidx.core.view.WindowInsetsCompat
 
 
 class B2GTTenth : AppCompatActivity() {
+    private lateinit var sharedPreferences: SharedPreferences
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -30,12 +32,25 @@ class B2GTTenth : AppCompatActivity() {
         val option1Button = findViewById<Button>(R.id.option1Button)
         val option2Button = findViewById<Button>(R.id.option2Button)
         val option3Button = findViewById<Button>(R.id.option3Button)
+        // Инициализация SharedPreferences
+        sharedPreferences = getSharedPreferences("AppPreferences", MODE_PRIVATE)
+
+        // Проверка, был ли уже пройден этот уровень
+        if (sharedPreferences.getBoolean("B2GTTenth_completed", false)) {
+            // Уровень уже пройден, можно показать это визуально
+            option2Button.setBackgroundColor(Color.parseColor("#4CAF50")) // Зеленый цвет
+            option2Button.setTextColor(Color.WHITE)
+        }
         //Правильный ответ
         option2Button.setOnClickListener {
 
             option2Button.setBackgroundColor(Color.parseColor("#3366FF"))
             option2Button.setTextColor(Color.WHITE)
-
+            // Сохраняем факт прохождения уровня
+            sharedPreferences.edit().apply {
+                putBoolean("B2GTTenth_completed", true)
+                apply() // или commit() для синхронного сохранения
+            }
             // Переход на следующий экран (замените MainActivity3 на ваш следующий экран)
             val intent = Intent(this, B2List::class.java)
             startActivity(intent)
